@@ -70,8 +70,8 @@
           src = pkgs.fetchFromGitHub {
             owner = "roodjong";
             repo = "symfexit";
-            rev = "update-nix";
-            hash = "sha256-OEVt9/61eN/6vaTrSMXqksIW3zoZa+g+HS6c9mX2yhA=";
+            rev = "0b3a601219f021d5d9150cd533270c519f85bc3d";
+            hash = "sha256-Tb4/pgxbyrJNJ7EPpwfB4dqaFiaLprf5cNyEslVbqHk=";
           };
           symfexit-npm-deps = dream2nix.lib.evalModules {
             packageSets.nixpkgs = nixpkgs.legacyPackages.${system};
@@ -102,6 +102,7 @@
                   basename=$(basename $bin)
                   ln -s ../''${target#../symfexit-base-theme/node_modules/} $out/symfexit/theme/static_src/node_modules/.bin/$basename
                 done
+                touch $out/symfexit/theme/static_src/src/theme-overrides.css
               '';
           symfexit-base-theme =
             pkgs.runCommand "symfexit-base-theme"
@@ -217,7 +218,6 @@
               ];
             };
           };
-          default = symfexit-docker;
           symfexit-docker-tag = pkgs.writeShellScriptBin "symfexit-docker-tag" "echo ${symfexit-docker.imageTag}";
         }
       );

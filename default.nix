@@ -16,7 +16,7 @@ in
   deps =
     { nixpkgs, ... }:
     {
-      python = nixpkgs.python313;
+      python = nixpkgs.python314;
       file = nixpkgs.file;
       inherit (nixpkgs) postgresql;
     };
