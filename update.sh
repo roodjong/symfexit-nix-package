@@ -1,5 +1,5 @@
-#!/usr/bin/env nix-shell
-#!nix-shell -i bash -p curl jq nix-prefetch-github uv
+#!/usr/bin/env nix
+#!nix shell nixpkgs#bash nixpkgs#curl nixpkgs#jq nixpkgs#nix-prefetch-github nixpkgs#uv --command bash
 set -euo pipefail
 
 owner=roodjong
