@@ -1,0 +1,54 @@
+name: Update symfexit
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "symfexit branch to track"
+        required: false
+        default: "main"
+  repository_dispatch:
+    types: [symfexit-updated]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-symfexit
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: cachix/install-nix-action@v30
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run update.sh
+        env:
+          BRANCH: ${{ inputs.branch || 'main' }}
+        run: ./update.sh "$BRANCH"
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "update.sh produced no changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          new_rev=$(grep -oE 'rev = "[0-9a-f]{40}";' flake.nix | head -1 | grep -oE '[0-9a-f]{40}')
+          short_rev=${new_rev:0:7}
+          git add -A
+          git commit -m "Update symfexit to ${short_rev}
+
+          Upstream: roodjong/symfexit@${new_rev}"
+          git push

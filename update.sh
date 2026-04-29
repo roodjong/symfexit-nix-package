@@ -13,6 +13,12 @@ echo "==> Fetching latest commit of $owner/$repo@$branch"
 new_rev=$(curl -fsSL "https://api.github.com/repos/$owner/$repo/commits/$branch" | jq -r .sha)
 echo "    rev = $new_rev"
 
+current_rev=$(grep -oE 'rev = "[0-9a-f]{40}";' flake.nix | head -1 | grep -oE '[0-9a-f]{40}')
+if [ "$new_rev" = "$current_rev" ]; then
+  echo "==> Already at $current_rev, nothing to do"
+  exit 0
+fi
+
 echo "==> Prefetching source hash"
 new_hash=$(nix-prefetch-github "$owner" "$repo" --rev "$new_rev" | jq -r .hash)
 echo "    hash = $new_hash"
