@@ -70,8 +70,8 @@
           src = pkgs.fetchFromGitHub {
             owner = "roodjong";
             repo = "symfexit";
-            rev = "0b3a601219f021d5d9150cd533270c519f85bc3d";
-            hash = "sha256-Tb4/pgxbyrJNJ7EPpwfB4dqaFiaLprf5cNyEslVbqHk=";
+            rev = "d326859126b0a8d13f537a9a4e0472ad25a35b77";
+            hash = "sha256-tm1ZuEROonyyeAkvFQJ9VHowfqZ7cuLDE0YKQ0Xl0Rs=";
           };
           symfexit-npm-deps = dream2nix.lib.evalModules {
             packageSets.nixpkgs = nixpkgs.legacyPackages.${system};
