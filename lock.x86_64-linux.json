@@ -136,17 +136,17 @@
       },
       "psycopg": {
         "is_direct": false,
-        "sha256": "f96525a72bcfade6584ab17e89de415ff360748c766f0106959144dcbb38c698",
+        "sha256": "b6bbc25ccf05c8fad3b061d9db2ef0909a555171b84b07f29458a447253d679a",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/c8/5b/181e2e3becb7672b502f0ed7f16ed7352aca7c109cfb94cf3878a9186db9/psycopg-3.3.3-py3-none-any.whl",
-        "version": "3.3.3"
+        "url": "https://files.pythonhosted.org/packages/5c/e0/7b3dee031daae7743609ce3c746565d4a3ed7c2c186479eb48e34e838c64/psycopg-3.3.4-py3-none-any.whl",
+        "version": "3.3.4"
       },
       "psycopg-binary": {
         "is_direct": false,
-        "sha256": "17bb6600e2455993946385249a3c3d0af52cd70c1c1cdbf712e9d696d0b0bf1b",
+        "sha256": "8c0056529e68dbe9184cd4019a1f3d8f3a4ead2f6fc7a5afcf27d3314edd1277",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/0b/b6/0e0dd6a2f802864a4ae3dbadf4ec620f05e3904c7842b326aafc43e5f464/psycopg_binary-3.3.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
-        "version": "3.3.3"
+        "url": "https://files.pythonhosted.org/packages/8f/26/42e8533497e2592334f68ec529cf5f840f7fa4e99575a4bb61aa184dbfbf/psycopg_binary-3.3.4-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+        "version": "3.3.4"
       },
       "psycopg-pool": {
         "is_direct": false,
