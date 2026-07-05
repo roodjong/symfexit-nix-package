@@ -182,9 +182,9 @@ idna==3.11 \
     --hash=sha256:771a87f49d9defaf64091e6e6fe9c18d4833f140bd19464795bc32d966ca37ea \
     --hash=sha256:795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902
     # via requests
-mollie-api-python==3.9.1 \
-    --hash=sha256:1da31a28f7d9a25d880f2c1dec1a2df9244a3c281f6f56de78321a0c75d139d9 \
-    --hash=sha256:825dc9e846cfc6136cdc868baac6aa203a3b2530662f0516bee36abef19f36da
+mollie-api-python==4.0.0 \
+    --hash=sha256:3157f0e3767675c0abccf2835a38015098b90efe9739eff12e8aba3b158f80ca \
+    --hash=sha256:d04eb107f7ffd918d372d144582650e51f13f937d7855ade69f007edcff292f9
     # via symfexit (pyproject.toml)
 oauthlib==3.3.1 \
     --hash=sha256:0f0f8aa759826a193cf66c12ea1af1637f87b9b4622d46e866952bb022e538c9 \
