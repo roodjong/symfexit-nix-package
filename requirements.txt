@@ -155,9 +155,9 @@ django-storages==1.14.6 \
     --hash=sha256:11b7b6200e1cb5ffcd9962bd3673a39c7d6a6109e8096f0e03d46fab3d3aabd9 \
     --hash=sha256:7a25ce8f4214f69ac9c7ce87e2603887f7ae99326c316bc8d2d75375e09341c9
     # via django-drf-filepond
-django-tailwind==4.4.2 \
-    --hash=sha256:0e4a2836cb36e8952700457d049fadb8743583017cef80fa3a374f8597c289f4 \
-    --hash=sha256:b3a3eb2d22cbb8c17565898fb68ccedcf806542b04fe4107bdfec7035d582819
+django-tailwind==4.5.0 \
+    --hash=sha256:618314751e867e8871b1e06ed98c0b8beb762ac9b431f739647ad4d82ab8b125 \
+    --hash=sha256:c4b40820663ac3932f6951b82b91e3773361a46d9bde972bc8a338eee3c5d045
     # via symfexit (pyproject.toml)
 django-tenants==3.10.1 \
     --hash=sha256:01b4fb6754ac1e77d7f6a21f43b92149fecbdf7ea9dd91d73ec9c43e11967c40 \

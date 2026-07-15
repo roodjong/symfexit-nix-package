@@ -66,10 +66,10 @@
       },
       "django-tailwind": {
         "is_direct": false,
-        "sha256": "0e4a2836cb36e8952700457d049fadb8743583017cef80fa3a374f8597c289f4",
+        "sha256": "618314751e867e8871b1e06ed98c0b8beb762ac9b431f739647ad4d82ab8b125",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/02/ed/85113d22ab4268600542152bc4b5512abb1204552b90e04848ebc496aa5c/django_tailwind-4.4.2-py3-none-any.whl",
-        "version": "4.4.2"
+        "url": "https://files.pythonhosted.org/packages/09/32/ffb8c8f6e86d06912d3afe4800e72a5045d21916171b36e256c07f87cc91/django_tailwind-4.5.0-py3-none-any.whl",
+        "version": "4.5.0"
       },
       "django-tenants": {
         "is_direct": false,
