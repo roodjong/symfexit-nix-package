@@ -10,10 +10,10 @@
       },
       "bleach": {
         "is_direct": false,
-        "sha256": "fe10ec77c93ddf3d13a73b035abaac7a9f5e436513864ccdad516693213c65d6",
+        "sha256": "4b6b6a54fff2e69a3dde9d21cc6301220bee3c3cb792187d11403fd795031081",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/cd/3a/577b549de0cc09d95f11087ee63c739bba856cd3952697eec4c4bb91350a/bleach-6.3.0-py3-none-any.whl",
-        "version": "6.3.0"
+        "url": "https://files.pythonhosted.org/packages/58/9d/40b6267367182187139a4000b82a3b287d84d745bccd808e75d916920e9d/bleach-6.4.0-py3-none-any.whl",
+        "version": "6.4.0"
       },
       "certifi": {
         "is_direct": false,
@@ -31,10 +31,10 @@
       },
       "commonmark": {
         "is_direct": false,
-        "sha256": "da2f38c92590f83de410ba1a3cbceafbc74fee9def35f9251ba9a971d6d66fd9",
+        "sha256": "cc7dfaea4557c79e32ce1ad36727185ea8cfe9c7e797cf79297c5cdffe6c7f5a",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/b1/92/dfd892312d822f36c55366118b95d914e5f16de11044a27cf10a7d71bbbf/commonmark-0.9.1-py2.py3-none-any.whl",
-        "version": "0.9.1"
+        "url": "https://files.pythonhosted.org/packages/a0/5f/8258106ce24cfcb92134de904905a3118574a8b205c2a135301751797ec3/commonmark-0.9.2-py2.py3-none-any.whl",
+        "version": "0.9.2"
       },
       "dj-database-url": {
         "is_direct": false,
@@ -73,10 +73,10 @@
       },
       "django-tenants": {
         "is_direct": false,
-        "sha256": "01b4fb6754ac1e77d7f6a21f43b92149fecbdf7ea9dd91d73ec9c43e11967c40",
+        "sha256": "200a5ec5be12812bda5436beaf21612fe15ae975c3211fc162e0dd70885b30e3",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/de/2f/309ab84126582f92d137e49c3df1ee9cc05b56e3b32428130138f5263036/django_tenants-3.10.1-py3-none-any.whl",
-        "version": "3.10.1"
+        "url": "https://files.pythonhosted.org/packages/1f/0b/dad7316ef5e180fb4883a855e0a284cd349c4742f41603c7a1f4a26c52b5/django_tenants-3.10.2-py3-none-any.whl",
+        "version": "3.10.2"
       },
       "django-tinymce": {
         "is_direct": false,
@@ -129,10 +129,10 @@
       },
       "pillow": {
         "is_direct": false,
-        "sha256": "4bfd07bc812fbd20395212969e41931001fd59eb55a60658b0e5710872e95286",
+        "sha256": "251bf95b67017e27b13d82f5b326234ca62d70f9cf4c2b9032de2358a3b12c7b",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/11/8d/d2532ad2a603ca2b93ad9f5135732124e57811d0168155852f37fbce2458/pillow-12.2.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
-        "version": "12.2.0"
+        "url": "https://files.pythonhosted.org/packages/5c/44/c85361f65dbe00eea8576ee467c768d25129989efb76e94f205e9ca9bb46/pillow-12.3.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+        "version": "12.3.0"
       },
       "psycopg": {
         "is_direct": false,
