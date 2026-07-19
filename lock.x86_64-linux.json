@@ -92,6 +92,13 @@
         "url": "https://files.pythonhosted.org/packages/b0/ce/bf8b9d3f415be4ac5588545b5fcdbbb841977db1c1d923f7568eeabe1689/djangorestframework-3.16.1-py3-none-any.whl",
         "version": "3.16.1"
       },
+      "et-xmlfile": {
+        "is_direct": false,
+        "sha256": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/c1/8b/5fe2cc11fee489817272089c4203e679c63b570a5aaeb18d852ae3cbba6a/et_xmlfile-2.0.0-py3-none-any.whl",
+        "version": "2.0.0"
+      },
       "fontawesomefree": {
         "is_direct": false,
         "sha256": "599b574431c9bd92ed5fc054d1045a07c42335da36c17884f2b934755eef9089",
@@ -126,6 +133,13 @@
         "type": "url",
         "url": "https://files.pythonhosted.org/packages/be/9c/92789c596b8df838baa98fa71844d84283302f7604ed565dafe5a6b5041a/oauthlib-3.3.1-py3-none-any.whl",
         "version": "3.3.1"
+      },
+      "openpyxl": {
+        "is_direct": false,
+        "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/c0/da/977ded879c29cbd04de313843e76868e6e13408a94ed6b987245dc7c8506/openpyxl-3.1.5-py2.py3-none-any.whl",
+        "version": "3.1.5"
       },
       "pillow": {
         "is_direct": false,
@@ -266,6 +280,7 @@
         "djangorestframework": [
           "django"
         ],
+        "et-xmlfile": [],
         "fontawesomefree": [],
         "hashids": [],
         "idna": [],
@@ -275,6 +290,9 @@
           "urllib3"
         ],
         "oauthlib": [],
+        "openpyxl": [
+          "et-xmlfile"
+        ],
         "pillow": [],
         "psycopg": [],
         "psycopg-binary": [],
