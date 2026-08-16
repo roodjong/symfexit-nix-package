@@ -159,9 +159,9 @@ django-tailwind==4.5.0 \
     --hash=sha256:618314751e867e8871b1e06ed98c0b8beb762ac9b431f739647ad4d82ab8b125 \
     --hash=sha256:c4b40820663ac3932f6951b82b91e3773361a46d9bde972bc8a338eee3c5d045
     # via symfexit (pyproject.toml)
-django-tenants==3.10.2 \
-    --hash=sha256:1d696911989c330218dccb9da8bc0b4caa5512e02b675c82dd991cad95573105 \
-    --hash=sha256:200a5ec5be12812bda5436beaf21612fe15ae975c3211fc162e0dd70885b30e3
+django-tenants==3.14.0 \
+    --hash=sha256:55dc64bcd4293a03fab7108f4c4e1724c2f53ef09a1c7f9e5f75a136fccc3146 \
+    --hash=sha256:f2c17b05d03c8b8d79c8e190ca2da14fdc36d52553d216b1dbb09c4adbda2eb6
     # via symfexit (pyproject.toml)
 django-tinymce==5.0.0 \
     --hash=sha256:6257669ed596accf5fa967ff3061276b2c5352baac1bbc658fcd8252b12ca38a \

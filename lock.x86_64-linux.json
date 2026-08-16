@@ -73,10 +73,10 @@
       },
       "django-tenants": {
         "is_direct": false,
-        "sha256": "200a5ec5be12812bda5436beaf21612fe15ae975c3211fc162e0dd70885b30e3",
+        "sha256": "f2c17b05d03c8b8d79c8e190ca2da14fdc36d52553d216b1dbb09c4adbda2eb6",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/1f/0b/dad7316ef5e180fb4883a855e0a284cd349c4742f41603c7a1f4a26c52b5/django_tenants-3.10.2-py3-none-any.whl",
-        "version": "3.10.2"
+        "url": "https://files.pythonhosted.org/packages/7c/a2/c4d45511b0c1c3868fafa9e745b6089c0e0b30959b8191ac4a5643bac9ae/django_tenants-3.14.0-py3-none-any.whl",
+        "version": "3.14.0"
       },
       "django-tinymce": {
         "is_direct": false,
