@@ -167,10 +167,12 @@ django-tinymce==5.0.0 \
     --hash=sha256:6257669ed596accf5fa967ff3061276b2c5352baac1bbc658fcd8252b12ca38a \
     --hash=sha256:c2e9c5efd2cc6c036f4c57e602b133180433e2bd1513b897089d3c4fb4e20579
     # via symfexit (pyproject.toml)
-djangorestframework==3.16.1 \
-    --hash=sha256:166809528b1aced0a17dc66c24492af18049f2c9420dbd0be29422029cfc3ff7 \
-    --hash=sha256:33a59f47fb9c85ede792cbf88bde71893bcda0667bc573f784649521f1102cec
-    # via django-drf-filepond
+djangorestframework==3.18.0 \
+    --hash=sha256:2323a5111837e0b784dcb8323abc78ecc54fa2a5af7aff2677cf50cdd849477f \
+    --hash=sha256:381fc44d3249c9565c5f723850855b734e99030eb30957a49f506d3fe11d7dcb
+    # via
+    #   symfexit (pyproject.toml)
+    #   django-drf-filepond
 et-xmlfile==2.0.0 \
     --hash=sha256:7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa \
     --hash=sha256:dab3f4764309081ce75662649be815c4c9081e88f0837825f90fd28317d4da54

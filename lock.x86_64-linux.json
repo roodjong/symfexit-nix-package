@@ -87,10 +87,10 @@
       },
       "djangorestframework": {
         "is_direct": false,
-        "sha256": "33a59f47fb9c85ede792cbf88bde71893bcda0667bc573f784649521f1102cec",
+        "sha256": "381fc44d3249c9565c5f723850855b734e99030eb30957a49f506d3fe11d7dcb",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/b0/ce/bf8b9d3f415be4ac5588545b5fcdbbb841977db1c1d923f7568eeabe1689/djangorestframework-3.16.1-py3-none-any.whl",
-        "version": "3.16.1"
+        "url": "https://files.pythonhosted.org/packages/51/d7/7461738e819b853275b35fd35712a85806c09a327e1fd5f8ff766bdd317e/djangorestframework-3.18.0-py3-none-any.whl",
+        "version": "3.18.0"
       },
       "et-xmlfile": {
         "is_direct": false,
